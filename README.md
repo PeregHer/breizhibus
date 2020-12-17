@@ -5,7 +5,7 @@ L'application est séparée en deux menus, le menu des lignes et le menu des bus
 ### Menu des lignes
 Le menu des lignes permet d'afficher les arrêts et les bus reliés à chaque ligne.
 
-Chaque bouton est créé avec une boucle for, le nombre de boutons varie en fonction du nombre de lignes en base. Chaque bouton est relié à un id de ligne grace à la fonction partial du module functools. À chaque affichage la frame est vidée entièrement afin d'afficher les nouvelles informations correspondantes.
+Chaque bouton est créé avec une boucle for, le nombre de boutons varie en fonction du nombre de lignes en base. Chaque bouton est relié à un id de ligne grace à la fonction ```partial``` du module ```functools```. À chaque affichage la frame est vidée entièrement afin d'afficher les nouvelles informations correspondantes.
 
 ![menu lignes](./images/menu_lignes.PNG)
 
