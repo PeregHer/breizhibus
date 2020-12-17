@@ -14,17 +14,17 @@ Le menu des bus permet de visionner tous les bus présents en base, de les suppr
 
 Chaque bus en base est affiché avec son numéro, son immatriculation, son nombre de places et sa ligne.
 - Pour supprimer un bus, il suffit de choisir un bus dans la première Combobox et d'appuyer sur supprimer, le menu va se réactualiser sans le bus supprimé.
-- Pour ajouter un bus il faut remplir tous les champs, **Combobox** et **Entry** avec les informations voulues et cliquer sur le bouton **Ajouter/Modifier**. Il faut respecter l'ordre de l'affichage au dessus. Si un format d'une entrée est incorrect, une fenetre va s'afficher avec l'erreur.
-- Pour modifier un bus, il faut dans un premier temps séléctionner un bus dans la première Combobox, cela va remplir les champs des informations. Il faut alors modifier les informations voulu et cliquer sur le bouton **Ajouter/Modifier**.
+- Pour ajouter un bus il faut remplir tous les champs, ```Combobox``` et ```Entry``` avec les informations voulues et cliquer sur le bouton ```Ajouter/Modifier```. Il faut respecter l'ordre de l'affichage au dessus. Si un format d'une entrée est incorrect, une fenetre va s'afficher avec l'erreur.
+- Pour modifier un bus, il faut dans un premier temps séléctionner un bus dans la première Combobox, cela va remplir les champs des informations. Il faut alors modifier les informations voulu et cliquer sur le bouton ```Ajouter/Modifier```.
 
 ![menu bus](./images/menu_bus.PNG)
 
 ## Choix techniques
 
-Pour l'interface j'ai utilisé **Tkinter** utilisé en objet.
+Pour l'interface j'ai utilisé ```Tkinter``` utilisé en objet.
 J'ai séparé le code en plusieurs méthodes pour pouvoir les assigner à mes différents boutons. Chaque bouton à sa méthode.
 
-Pour la connexion à la base de données j'ai utilisé **mysql connector**.
+Pour la connexion à la base de données j'ai utilisé ```*mysql connector```.
 
 Pour la base de données, j'ai créé 4 tables:
 - bus
